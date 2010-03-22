@@ -1,0 +1,27 @@
+Adaption from from http://github.com/rubenfonseca/twitter-amqp-websocket-example to cyclone/restmq
+
+Now that cyclone has websockets build in, restmq has inherited it and I implemented a websocket consumer.
+
+It makes possible to enable javascript applications to receive straight from a queue. Interchange format still JSON.
+
+To test:
+
+- Install:
+
+Twisted Twitter Stream
+http://github.com/fiorix/twisted-twitter-stream
+
+RestMQ:
+http://github.com/gleicon/restmq
+
+
+- Deploy the files under templates to a webserver or run python -m SimpleHTTPServer inside the folder.
+- edit producer.py and add your passwd and words to filter.
+- run it with python producer.py
+- Point your browser to your http server
+
+
+gleicon@gmail.com
+http://zenmachine.wordpress.com
+http://github.com/gleicon
+
